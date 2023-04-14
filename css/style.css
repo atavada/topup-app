@@ -1,0 +1,65 @@
+.main {
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + label {
+  text-align: center;
+  background-color: #342e88;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+}
+input[type="radio"] + label {
+  text-align: center;
+  color: #bebebe;
+  display: inline-block;
+  padding: 10px;
+  background-color: #30373f;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.btn-check:checked + .button {
+  text-align: left;
+  width: 100%;
+  background-color: #eeeeee;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  cursor: pointer;
+  padding: 20px;
+}
+.btn-check + .button {
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+  background-color: #30373f;
+  padding: 20px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.order {
+  margin-bottom: 340px;
+}
+.game {
+  margin-bottom: 240px;
+}
